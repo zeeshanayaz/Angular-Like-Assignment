@@ -1,0 +1,11 @@
+.glyphicon{
+    color: #ccc;
+    cursor: pointer;
+}
+
+.highLighted{
+    color: deeppink;
+}
+.like-component{
+    font-size: 100px
+}

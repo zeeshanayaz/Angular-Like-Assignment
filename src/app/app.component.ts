@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  tweet = {
+    body: '...',
+    likesCount : 9,
+    isLiked: false
+  }
+
+  counter = {
+    body: '...',
+    totalCount : 10
+  }
+
 }

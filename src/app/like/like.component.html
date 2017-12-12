@@ -1,0 +1,17 @@
+<div class="text-center">
+  <h3>
+    Would you Like us!!!! <br>
+    CLick on the Heart
+  </h3>  
+</div>  
+<div class="text-center like-component">
+
+<span
+  class="glyphicon glyphicon-heart"
+  [class.highLighted]="isActive"
+  (click)="onClick()">
+</span>
+
+<span>{{likesCount}}</span>
+</div>
+
